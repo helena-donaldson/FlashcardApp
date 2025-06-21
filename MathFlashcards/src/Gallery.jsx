@@ -84,7 +84,8 @@ const Gallery = () => {
 
   function handleSubmit(e){
     e.preventDefault();
-    if (guess.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") == cardList[currentCard].name.toLowerCase()){
+    if(currentSide == true){
+      if (guess.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") == cardList[currentCard].name.toLowerCase()){
       setCorrect("Correct!");
       setCurrentStreak(currentStreak + 1);
       if(currentStreak + 1 > highestStreak){
@@ -93,6 +94,7 @@ const Gallery = () => {
     } else{
       setCorrect("Wrong!");
       setCurrentStreak(0);
+    }
     }
   }
 
