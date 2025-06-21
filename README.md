@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://imgur.com/gallery/codepath-hw3-assignment-math-app-za8asOu"></a>
+<a href="https://imgur.com/gallery/codepath-hw3-assignment-math-app-za8asOu">Click Here for gif!</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
